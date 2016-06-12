@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
-
+/*Start to learn this code*/
 export const Tasks = new Mongo.Collection('tasks');
 
 if (Meteor.isServer) {
